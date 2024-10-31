@@ -5,12 +5,17 @@ import user_icon from '../../assets/user_icon.svg'
 
 const Footer = () => {
     return (
-        <div className='<p className="footer-bottom-left">© 2024 Sanjeev Singh. All rights reserved. | Designed and Developed by Sanjeev Singh.</p>
->
+        <div id='footer' className='footer'>
             <div className="footer-top">
                 <div className="footer-top-left">
                     <img src={footer_logo} alt="" />
-                    <p>As a passionate learner just beginning my journey in tech, I'm dedicated to mastering core programming skills and exploring new technologies. I'm currently focused on building a solid foundation in frontend development and honing my problem-solving abilities through Data Structures and Algorithms in C++.</p>
+                    <p>
+                        As a passionate learner just beginning my journey in tech, I'm dedicated
+                        to mastering core programming skills and exploring new technologies. I'm
+                        currently focused on building a solid foundation in frontend development
+                        and honing my problem-solving abilities through Data Structures and
+                        Algorithms in C++.
+                    </p>
                 </div>
                 <div className="footer-top-right">
                     <div className="footer-email-input">
@@ -33,4 +38,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footer;
