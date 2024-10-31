@@ -10,7 +10,7 @@ const mywork_data = [
         w_no:1,
         w_name:"Web design",
         w_img:project1_img,
-        w_link:"https://prescripto-one.vercel.app/"
+        w_link:"https://prescripto-3l1s.vercel.app/"
     },
     {
         w_no:2,
